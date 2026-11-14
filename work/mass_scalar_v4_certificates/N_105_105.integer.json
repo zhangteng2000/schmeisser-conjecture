@@ -1,0 +1,22 @@
+{
+  "PASS": true,
+  "N_range": [
+    105,
+    105
+  ],
+  "nodes": 43,
+  "leaves": 22,
+  "counts": {
+    "threshold": 2,
+    "24576:16_1": 3,
+    "24576:32_0": 1,
+    "24576:16_0": 9,
+    "24576:8_0": 7
+  },
+  "seconds": 0.8069620132446289,
+  "precision_bits": 192,
+  "certificate": "work/mass_scalar_v4_certificates/N_105_105.tree.gz",
+  "certificate_sha256": "9bd33b0c72d5fb529ca1ac19b66b3c9fe8b32732831d59501bd951c4b706e4ca",
+  "verifier_sha256": "8e9597f48f96983f10d76bf57188bd8d92a9dad61479f0bb0e549cceff0889cb",
+  "arithmetic_dependency_sha256": "584745efa92791c1438717b46bcd0a85e2e7956f27bffc50df493ac512954e85"
+}

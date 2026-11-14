@@ -1,0 +1,25 @@
+{
+  "PASS": true,
+  "N_range": [
+    41,
+    41
+  ],
+  "nodes": 47,
+  "leaves": 24,
+  "pending": 0,
+  "unresolved": [],
+  "counts": {
+    "threshold": 2,
+    "24576:16_1": 6,
+    "24576:8_1": 5,
+    "24576:16_0": 2,
+    "24576:8_0": 9
+  },
+  "seconds": 0.13560700416564941,
+  "certificate": "work/mass_scalar_v4_certificates/N_41_41.tree.gz",
+  "certificate_sha256": "572caf14b8849ba50c744a5d1c8850b3044d463e16e4c4ce238f0f64f4cbd389",
+  "source_sha256": "8985b699624c614b870a11520dd2210b304a01b7ba332394343a5a1e63a278bd",
+  "dependencies": {
+    "mass_arb_helpers.py": "b2f741e539fe36c96f6da09099a26413bf96ab95b7a62bb7bcef6051aa27aaa9"
+  }
+}

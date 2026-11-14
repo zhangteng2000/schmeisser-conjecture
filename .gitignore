@@ -1,0 +1,22 @@
+# Publish only the code supplement and its verification inputs.
+*
+!.gitignore
+!.gitattributes
+!README.md
+!SHA256SUMS.txt
+!verify_all.py
+!work/
+!work/assemble_mass_proof.py
+!work/certify_mass_scalar_v4.py
+!work/mass_arb_helpers.py
+!work/mass_integer_arithmetic.py
+!work/mass_proof_manifest.json
+!work/mass_scalar_v4_batch_passes.json
+!work/mass_scalar_v4_batch_state.json
+!work/run_mass_scalar_v4_batch.py
+!work/uniform_large_degree_constants.json
+!work/uniform_large_degree_constants.py
+!work/verify_mass_scalar_integer_v4.py
+!work/mass_scalar_v4_certificates/
+!work/mass_scalar_v4_certificates/*.tree.gz
+!work/mass_scalar_v4_certificates/*.json
