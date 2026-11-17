@@ -1,9 +1,40 @@
-# Schmeisser's conjecture: verification code
+# Schmeisser's conjecture: Lean proof and verification code
 
-This repository contains the computational supplement for Schmeisser's
-conjecture: certificate generation, independent integer verification, and
-the recorded interval certificates. It contains code and computational data;
-the manuscript and its LaTeX sources are not included.
+This repository contains a complete Lean formalization of Schmeisser's
+convex-hull theorem and its optimal constant, together with the original
+computational supplement. The manuscript and its LaTeX sources are not included.
+
+## Lean formalization
+
+The project in [`lean/`](lean/) proves that, for every complex polynomial of
+degree at least two whose zeros lie in the closed unit disk, each point in
+the convex hull of the zeros is within distance one of a critical point.
+The constant one is optimal in every fixed degree at least two.
+
+- [`Schmeisser.main`](lean/Schmeisser/Main.lean): the all-degree theorem.
+- [`Schmeisser.universal_bound_iff`](lean/Schmeisser/Main.lean): the optimal
+  universal constant in each degree.
+- [`Schmeisser.sharpness`](lean/Schmeisser/Sharpness.lean): the witness `X^n - 1`.
+- [`lean/README.md`](lean/README.md): proof structure and build instructions.
+- [`verification/report.json`](lean/verification/report.json) and
+  [`the final axiom audit`](lean/verification/final-axiom-gate.log): verification
+  results for the supplied sources.
+
+The proof uses Lean 4.34.1 and pinned mathlib dependencies. It contains no
+`sorry`, `admit`, or additional axioms; the final transitive axiom dependencies
+are `propext`, `Classical.choice`, and `Quot.sound`. The finite certificates
+are checked by the Lean kernel.
+
+To rebuild and audit the formalization, install Python 3.11+, Git, and
+Elan/Lake, then run from the repository root:
+
+```sh
+cd lean
+python scripts/verify_project.py --fetch-cache
+```
+
+The following sections describe the original Python supplement and its
+independent finite-certificate replay.
 
 ## Verify the supplied certificates
 
@@ -46,10 +77,9 @@ The source code and certificate format retain the identifier `N` for `n-1`.
 These original identifiers and files are preserved to keep the recorded
 source and certificate hashes valid.
 
-The program verifies the finite inequalities and their coverage. The
-mathematical reduction, the analytic endpoint cases, and the large-degree
-argument belong to the separate manuscript. This repository is not a
-proof-assistant formalization of the entire argument.
+The Python program verifies the finite inequalities and their coverage.
+The complete formal proof, including the mathematical reduction, endpoint
+cases, and large-degree argument, is supplied separately in [`lean/`](lean/).
 
 ## Files
 
@@ -90,8 +120,9 @@ receipts need not have the same hashes as the frozen release.
 
 ## File integrity
 
-The distributed verification sources, certificates, and original receipts
-are copied without modification. `SHA256SUMS.txt` covers this code-only
-distribution. `.gitattributes` disables automatic line-ending conversion
-so that checking out the repository on Windows or Unix preserves the bytes
-used by the provenance checks.
+The original verification sources, certificates, and receipts are unchanged.
+`SHA256SUMS.txt` covers that supplement and its repository documentation;
+[`lean/SHA256SUMS`](lean/SHA256SUMS) covers the verified Lean distribution.
+`.gitattributes` disables automatic line-ending conversion so that checking
+out the repository on Windows or Unix preserves the bytes used by the
+provenance checks.

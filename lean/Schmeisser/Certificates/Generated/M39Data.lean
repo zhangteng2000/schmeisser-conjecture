@@ -1,0 +1,68 @@
+import Schmeisser.Certificates.BlockSoundness
+import Schmeisser.Certificates.Generated.M39Coefficients
+
+namespace Schmeisser.Certificates.Finite.Generated.M39
+
+set_option maxHeartbeats 0
+set_option maxRecDepth 65536
+set_option Elab.async false
+
+def data : Data where
+  lo := 39
+  hi := 39
+  cutoff := 3090451474223071232
+  upper := coefficients.upper
+  panels := [
+    ((mkRat 0 1), (mkRat 1 256)),
+    ((mkRat 1 256), (mkRat 1 64)),
+    ((mkRat 1 64), (mkRat 9 256)),
+    ((mkRat 9 256), (mkRat 1 16)),
+    ((mkRat 1 16), (mkRat 25 256)),
+    ((mkRat 25 256), (mkRat 9 64)),
+    ((mkRat 9 64), (mkRat 49 256)),
+    ((mkRat 49 256), (mkRat 1 4)),
+    ((mkRat 1 4), (mkRat 81 256)),
+    ((mkRat 81 256), (mkRat 25 64)),
+    ((mkRat 25 64), (mkRat 121 256)),
+    ((mkRat 121 256), (mkRat 9 16)),
+    ((mkRat 9 16), (mkRat 169 256)),
+    ((mkRat 169 256), (mkRat 49 64)),
+    ((mkRat 49 64), (mkRat 225 256)),
+    ((mkRat 225 256), (mkRat 1 1))
+  ]
+
+theorem data_checked : data.check = true := by
+  decide +kernel
+
+def segments0 : List Segment := [
+  ⟨2882303761517117440, .threshold⟩,
+  ⟨3314649325744685056, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 63488)⟩)⟩,
+  ⟨3458764513820540928, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 63488)⟩)⟩,
+  ⟨3746994889972252672, (.numeric ⟨24576, (.recurrence 16 (.basic false true)), (.convexRiemann 63488)⟩)⟩,
+  ⟨4035225266123964416, (.numeric ⟨24576, (.recurrence 16 (.basic false true)), (.convexRiemann 63488)⟩)⟩,
+  ⟨4323455642275676160, (.numeric ⟨24576, (.recurrence 16 (.basic false true)), (.convexRiemann 63488)⟩)⟩,
+  ⟨4611686018427387904, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 63488)⟩)⟩,
+  ⟨4899916394579099648, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨5188146770730811392, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨5764607523034234880, (.numeric ⟨24576, (.recurrence 16 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨6341068275337658368, (.numeric ⟨24576, (.recurrence 16 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨6917529027641081856, (.numeric ⟨24576, (.recurrence 16 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨7493989779944505344, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨8070450532247928832, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨8646911284551352320, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨9223372036854775808, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨9799832789158199296, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 65024)⟩)⟩,
+  ⟨10376293541461622784, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 65024)⟩)⟩,
+  ⟨10952754293765046272, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 65024)⟩)⟩,
+  ⟨11529215046068469760, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 65024)⟩)⟩,
+  ⟨12105675798371893248, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 65024)⟩)⟩,
+  ⟨12682136550675316736, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨13258597302978740224, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨13546827679130451968, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), (.convexRiemann 64512)⟩)⟩,
+  ⟨13835058055282163712, (.numeric ⟨24576, (.recurrence 8 (.basic false true)), .geometric⟩)⟩,
+  ⟨14987979559889010688, (.numeric ⟨24576, (.recurrence 8 (.basic true true)), .geometric⟩)⟩,
+  ⟨17293822569102704640, (.numeric ⟨24576, (.recurrence 8 (.basic true true)), .geometric⟩)⟩,
+  ⟨18446744073709551616, (.numeric ⟨24576, (.recurrence 8 (.basic true false)), .geometric⟩)⟩
+]
+
+end Schmeisser.Certificates.Finite.Generated.M39

@@ -1,4 +1,4 @@
-# Publish only the code supplement and its verification inputs.
+# Publish the code supplement, formal proofs, and verification inputs.
 *
 !.gitignore
 !.gitattributes
@@ -20,3 +20,9 @@
 !work/mass_scalar_v4_certificates/
 !work/mass_scalar_v4_certificates/*.tree.gz
 !work/mass_scalar_v4_certificates/*.json
+!lean/
+!lean/**
+lean/**/*.tex
+lean/**/*.pdf
+lean/**/reference/
+lean/**/.lake/

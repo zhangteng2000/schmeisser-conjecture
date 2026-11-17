@@ -1,0 +1,301 @@
+⚠ [3204/3215] Replayed Schmeisser.Hyperbolic
+warning: Schmeisser/Hyperbolic.lean:38:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3491/3521] Replayed Schmeisser.NumericalBounds
+warning: Schmeisser/NumericalBounds.lean:16:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/NumericalBounds.lean:52:47: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3637/3656] Replayed Schmeisser.CauchyCoefficients
+warning: Schmeisser/CauchyCoefficients.lean:172:40: Variable name `hV0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hV0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3819/4715] Replayed Schmeisser.ComparisonParameters
+warning: Schmeisser/ComparisonParameters.lean:71:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/ComparisonParameters.lean:133:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Schmeisser/ComparisonParameters.lean:133:10: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [3820/4715] Replayed Schmeisser.FiniteMomentBound
+warning: Schmeisser/FiniteMomentBound.lean:27:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/FiniteMomentBound.lean:41:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3821/4715] Replayed Schmeisser.PolarCertification
+warning: Schmeisser/PolarCertification.lean:82:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Schmeisser/PolarCertification.lean:82:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Schmeisser/PolarCertification.lean:103:64: This simp argument is unused:
+  integral_id
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [intervalIntegral.integral_const_mul, integral_pow, intervalIntegral.integral_const, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/PolarCertification.lean:107:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4031/4715] Replayed Schmeisser.PolarThresholds
+warning: Schmeisser/PolarThresholds.lean:76:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4141/4715] Replayed Schmeisser.FiniteReduction
+warning: Schmeisser/FiniteReduction.lean:18:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/FiniteReduction.lean:60:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4143/4715] Replayed Schmeisser.ErrorBounds
+warning: Schmeisser/ErrorBounds.lean:34:5: Variable name `hd0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hd0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Schmeisser/ErrorBounds.lean:53:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4144/4715] Replayed Schmeisser.ErrorIntegrals
+warning: Schmeisser/ErrorIntegrals.lean:81:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/ErrorIntegrals.lean:150:84: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4145/4715] Replayed Schmeisser.QuarticEndpoint
+warning: Schmeisser/QuarticEndpoint.lean:132:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Schmeisser/QuarticEndpoint.lean:132:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [4146/4715] Replayed Schmeisser.Certificates.Count4PolynomialBounds
+warning: Schmeisser/Certificates/Count4PolynomialBounds.lean:1:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+⚠ [4151/4715] Replayed Schmeisser.Certificates.CommonCoefficients
+warning: Schmeisser/Certificates/CommonCoefficients.lean:50:47: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Schmeisser/Certificates/CommonCoefficients.lean:50:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/Certificates/CommonCoefficients.lean:50:47: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [4168/4715] Replayed Schmeisser.Certificates.BlockRecurrenceBridge
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:14:27: This simp argument is unused:
+  env
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [index, Expr.value, Nat.cast_sub hoff]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:18:25: This simp argument is unused:
+  env
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [eps, Expr.value, max_eq_right (sub_nonneg.mpr hx1), min_eq_right (by linarith : 1 - x ≤ 1)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:90:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:160:36: This simp argument is unused:
+  Expr.value_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [quadratic, Expr.value, Expr.value_sub, Expr.value_mul, Expr.value_pow, Expr.value_ofNat, value_u,
+    value_h m κ hx.le hx1.le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:160:68: This simp argument is unused:
+  Expr.value_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [quadratic, Expr.value, Expr.value_add, Expr.value_sub, Expr.value_pow, Expr.value_ofNat, value_u,
+    value_h m κ hx.le hx1.le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:161:20: This simp argument is unused:
+  Expr.value_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [quadratic, Expr.value, Expr.value_add, Expr.value_sub, Expr.value_mul, Expr.value_pow, value_u,
+    value_h m κ hx.le hx1.le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:188:43: This simp argument is unused:
+  Expr.value_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [trapezoidPhi, Expr.value_div, Expr.value_sub, Expr.value_add, Expr.value_ofNat,
+    value_eps m κ hx.le hx1.le, value_kap, value_u, Expr.value, value_quadratic m (.rat j 16) hx hx1 hk hk4, hrat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:188:75: This simp argument is unused:
+  Expr.value_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [trapezoidPhi, Expr.value_div, Expr.value_mul, Expr.value_sub, Expr.value_ofNat,
+    value_eps m κ hx.le hx1.le, value_kap, value_u, Expr.value, value_quadratic m (.rat j 16) hx hx1 hk hk4, hrat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:189:4: This simp argument is unused:
+  Expr.value_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [trapezoidPhi, Expr.value_div, Expr.value_mul, Expr.value_sub, Expr.value_add,
+    value_eps m κ hx.le hx1.le, value_kap, value_u, Expr.value, value_quadratic m (.rat j 16) hx hx1 hk hk4, hrat]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:190:61: This simp argument is unused:
+  hrat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [trapezoidPhi, Expr.value_div, Expr.value_mul, Expr.value_sub, Expr.value_add, Expr.value_ofNat,
+    value_eps m κ hx.le hx1.le, value_kap, value_u, Expr.value, value_quadratic m (.rat j 16) hx hx1 hk hk4]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:186:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:213:50: This simp argument is unused:
+  Expr.value_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [trapezoidCorrection, Expr.value_div, Expr.value_mul, Expr.value_ofNat, Expr.value,
+    value_eps m κ hx.le hx1.le, hsum, Finset.sum_sub_distrib, hlin]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:213:66: This simp argument is unused:
+  Expr.value_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [trapezoidCorrection, Expr.value_div, Expr.value_add, Expr.value_ofNat, Expr.value,
+    value_eps m κ hx.le hx1.le, hsum, Finset.sum_sub_distrib, hlin]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockRecurrenceBridge.lean:214:4: This simp argument is unused:
+  Expr.value_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [trapezoidCorrection, Expr.value_div, Expr.value_add, Expr.value_mul, Expr.value,
+    value_eps m κ hx.le hx1.le, hsum, Finset.sum_sub_distrib, hlin]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4170/4715] Replayed Schmeisser.Certificates.BlockPolarBridge
+warning: Schmeisser/Certificates/BlockPolarBridge.lean:31:36: This simp argument is unused:
+  Expr.value_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [polar, Expr.value_div, Expr.value_add, Expr.value_sub, Expr.value_ofNat, hp1, hp2,
+    value_h m κ hx.le hx1.le, value_u, Expr.value, Int.cast_natCast, Nat.cast_add, Nat.cast_ofNat, Nat.cast_one,
+    Int.cast_add, Int.cast_ofNat, Int.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockPolarBridge.lean:31:52: This simp argument is unused:
+  Expr.value_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [polar, Expr.value_div, Expr.value_mul, Expr.value_sub, Expr.value_ofNat, hp1, hp2,
+    value_h m κ hx.le hx1.le, value_u, Expr.value, Int.cast_natCast, Nat.cast_add, Nat.cast_ofNat, Nat.cast_one,
+    Int.cast_add, Int.cast_ofNat, Int.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockPolarBridge.lean:32:4: This simp argument is unused:
+  Expr.value_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [polar, Expr.value_div, Expr.value_mul, Expr.value_add, Expr.value_sub, hp1, hp2,
+    value_h m κ hx.le hx1.le, value_u, Expr.value, Int.cast_natCast, Nat.cast_add, Nat.cast_ofNat, Nat.cast_one,
+    Int.cast_add, Int.cast_ofNat, Int.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Schmeisser/Certificates/BlockPolarBridge.lean:33:34: This simp argument is unused:
+  Nat.cast_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [polar, Expr.value_div, Expr.value_mul, Expr.value_add, Expr.value_sub, Expr.value_ofNat, hp1, hp2,
+    value_h m κ hx.le hx1.le, value_u, Expr.value, Int.cast_natCast, Nat.cast_ofNat, Nat.cast_one, Int.cast_add,
+    Int.cast_ofNat, Int.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4177/4715] Replayed Schmeisser.ConvexPanelBounds
+warning: Schmeisser/ConvexPanelBounds.lean:67:54: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/ConvexPanelBounds.lean:90:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4186/4715] Replayed Schmeisser.LargeErrorBounds
+info: Schmeisser/LargeErrorBounds.lean:68:53: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Schmeisser/LargeErrorBounds.lean:68:53: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Schmeisser/LargeErrorBounds.lean:85:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4187/4715] Replayed Schmeisser.LargeComparisonGap
+info: Schmeisser/LargeComparisonGap.lean:27:59: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Schmeisser/LargeComparisonGap.lean:22:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/LargeComparisonGap.lean:27:43: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/LargeComparisonGap.lean:27:55: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/LargeComparisonGap.lean:55:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Schmeisser/LargeComparisonGap.lean:66:82: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Schmeisser/LargeComparisonGap.lean:66:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/LargeComparisonGap.lean:66:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Schmeisser/LargeComparisonGap.lean:55:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Schmeisser/LargeComparisonGap.lean:66:82: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [4439/4715] Replayed Schmeisser.Certificates.BlockNumericBridge
+warning: Schmeisser/Certificates/BlockNumericBridge.lean:54:8: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (4715 jobs).

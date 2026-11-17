@@ -1,0 +1,26 @@
+manuscript_part	formal_module	status
+Constant optimality in every degree	Schmeisser/Sharpness.lean	proved; compiled; axioms audited
+Degree two in final proof	Schmeisser/Quadratic.lean	proved; compiled; axioms audited
+Lemma diameter-cover	Schmeisser/Geometry.lean	proved in greater generality; compiled; axioms audited
+Lemma weighted covering	Schmeisser/Geometry.lean; Schmeisser/Assembly.lean	finite-family and polynomial-family bridges proved; compiled; axioms audited
+Gauss-Lucas and origin case	Schmeisser/Basic.lean	proved; compiled; axioms audited
+Lemma necessary inequalities Step 1	Schmeisser/ScalarReduction.lean	abstract moment hypotheses; proved; compiled; axioms audited
+Lemma boundary-zero	Schmeisser/RootMoments.lean	proved; compiled; axioms audited
+Lemma necessary inequalities Step 2	Schmeisser/Reflection.lean; Schmeisser/ReflectedIntegral.lean	complete reflected-polynomial and integral comparison proved; compiled; axioms audited
+Lemma necessary inequalities Step 3	Schmeisser/IntegralComparison.lean; Schmeisser/NecessaryIntegrals.lean	actual polynomial to two necessary inequalities proved; compiled; axioms audited
+Lemma scalar lower bounds	Schmeisser/ScalarIntegrals.lean; Schmeisser/Hyperbolic.lean; Schmeisser/PolarLowerBound.lean	proved; compiled; axioms audited
+Lemma Schoenberg	Schmeisser/CauchyCoefficients.lean; Schmeisser/NewtonCoefficients.lean	original Schoenberg inequality not formalized; replaced by kernel-checked Cauchy and Newton bounds; compiled; axioms audited
+Lemma symmetric-coefficient bounds	Schmeisser/CauchyCoefficients.lean; Schmeisser/CoefficientExpansion.lean; Schmeisser/ChooseBounds.lean; Schmeisser/NewtonCoefficients.lean	Cauchy, Newton, and endpoint estimates proved; compiled; axioms audited
+Lemma centred-product estimate	Schmeisser/CentredProduct.lean; Schmeisser/ErrorBounds.lean; Schmeisser/ErrorIntegrals.lean	proved; compiled; axioms audited through large-degree theorem
+Lemma quadratic recurrence	Schmeisser/QuadraticIntegrals.lean	true and normalized recurrences proved; compiled; axioms audited
+Lemma quadratic moment estimate	Schmeisser/QuadraticIntegrals.lean	sharp 11/10 estimate and vertex splitting proved; compiled; axioms audited
+Lemma large-degree exclusion	Schmeisser/LargeDegreeExclusion.lean	all m>=6000 proved; compiled; axioms audited
+Lemma finite-degree exclusion	Schmeisser/Certificates/BlockVerification.lean; Schmeisser/FiniteDegreeExclusion.lean	complete scalar exclusion for 3<=m<6000; analytic cases m=3,4,5,6 and 257 kernel-checked blocks covering 7 through 5999; compiled; axioms audited
+Full degree-four case	Schmeisser/QuarticFiniteError.lean; Schmeisser/QuarticAnalytic.lean	pure analytic replacement proved; standard Lake build and axiom audit passed; no finite certificates needed
+Full degree-five case	Schmeisser/QuinticFiniteError.lean; Schmeisser/Certificates/Count4PolynomialBounds.lean; Schmeisser/QuinticAnalytic.lean	pure analytic replacement proved; standard Lake builds and 13-statement axiom audit passed; no finite certificates needed
+Full degree-six case	Schmeisser/SexticFiniteError.lean; Schmeisser/Certificates/Count5PolynomialBounds.lean; Schmeisser/SexticAnalytic.lean	pure analytic replacement proved; standard Lake builds and 15-statement axiom audit passed; no subdivision certificates needed
+Full degree-seven case	Schmeisser/SepticFiniteError.lean; Schmeisser/Certificates/Count6PolynomialBounds.lean; Schmeisser/SepticAnalytic.lean	analytic replacement proved; standard Lake builds and 13-statement axiom audit passed; no subdivision certificates needed
+Appendix quartic endpoint	Schmeisser/QuarticEndpoint.lean	complete actual-family scalar exclusion proved; compiled; axioms audited
+Appendix convex-chord product bound	Schmeisser/QuadraticTrapezoid.lean; Schmeisser/Certificates/BlockErrorBridge.lean	quadratic square-root convexity, trapezoid bound, and grouped error-product bridges proved; compiled; axioms audited
+Convex panel integral bound	Schmeisser/ConvexPanelBounds.lean; Schmeisser/Certificates/ConvexPanelBridge.lean	oppositely ordered convex factors, trapezoid bound, grouped degree envelopes, and arbitrary saved panel choices proved; integrated standard Lake build and rejecting axiom gate passed
+All-degree main theorem	Schmeisser/Main.lean	unconditional theorem for every degree at least two; compiled; theorem type checked; transitive axiom gate passed
