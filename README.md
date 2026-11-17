@@ -4,6 +4,9 @@ This repository contains a complete Lean formalization of Schmeisser's
 convex-hull theorem and its optimal constant, together with the original
 computational supplement. The manuscript and its LaTeX sources are not included.
 
+Paper: Teng Zhang, [*A proof of Schmeisser's conjecture*](https://arxiv.org/abs/2611.19084)
+(arXiv:2611.19084).
+
 ## Lean formalization
 
 The project in [`lean/`](lean/) proves that, for every complex polynomial of
